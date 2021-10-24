@@ -1,0 +1,30 @@
+{
+    "name": "emso-exe/localidadex",
+    "description": "Biblioteca para busca (on-line) e listamento de estados e seus respectivos municípios, efetuando a consulta via API disponiblizada pelo IBGE(https://servicodados.ibge.gov.br/api/docs/localidades).",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "estado",
+        "municipío",
+        "localidades",
+        "ibge"
+    ],
+    "authors": [
+        {
+            "name": "Estênio Mariano",
+            "email": "dev.emso.exe@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4":{
+            "Emso\\LocalidadeX\\": "src/"
+        }
+    }
+}
